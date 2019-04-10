@@ -1,0 +1,4 @@
+cat /etc/resolv.conf
+
+It is a file provided when it comes in configuring the system's DNS.
+If you noticed, it will show a nameserver, a server on the internet that handles queries from local computer.

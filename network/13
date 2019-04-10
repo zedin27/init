@@ -1,0 +1,5 @@
+10.51.1.253
+
+The reason this is the server type is called on the `/etc/resolv.conf` or by doing `sctuil --dns`
+
+Another way to find out is by `nslookup 10.51.1.253` and find what name has, which will be a `dhcp-dns.42.us.org`
