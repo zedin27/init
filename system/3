@@ -1,0 +1,4 @@
+If we are talking inside of the virtualmachine, we must have to access into the `/etc/hostname`
+
+In docker, each container is created with a name and the prefered image (Debian in our case).
+Containers are randomly generating numbers and letters (e.g root@8e0694a4bda0)

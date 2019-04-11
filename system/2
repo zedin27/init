@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Inside of the VM:
+# echo "newhostname" > /etc/hostname
+
+# If using docker:
+docker run -h STRING --rm -ti debian
