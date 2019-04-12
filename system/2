@@ -2,6 +2,10 @@
 
 # Inside of the VM:
 # echo "newhostname" > /etc/hostname
+# hostname yournew_hostname
 
 # If using docker:
 docker run -h STRING --rm -ti debian
+
+# Another option in docker:
+# docker run -ti --rm --cap-add SYS_ADMIN debian
