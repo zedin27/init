@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cat dellist.txt | while read user
+do
+        echo "Deleting: ${user}"
+        userdel -rf "${user}"
+done

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+while :
+do
+	printf "DRINK WATER YOU DINGUS\n"
+	say DRINK WATER YOU DINGUS
+	echo "Are you going to drink water? [y, n]"
+	read input
+	if [[ $input == 'Y' || $input == 'y' || $input == "yes" || $input == "YES" || $input == "Yes" ]]; then
+		printf "okay :^) I will trust you\n"
+		break;
+	else
+		echo "uwotm8?"
+	fi
+	sleep 1
+done
