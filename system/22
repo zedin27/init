@@ -1,5 +1,3 @@
 #!/bin/sh
 
 adduser <name>
-
-#to delete user, do deluser <name>
