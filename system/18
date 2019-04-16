@@ -1,0 +1,5 @@
+#!/bin/sh
+
+service ssh stop
+
+#Alternative: ps -ef | egrep '(ssh|PID)' && kill -9 <PID>

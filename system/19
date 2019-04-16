@@ -1,0 +1,5 @@
+#!/bin/sh
+
+service --status-all
+
+#Alternative ls /init/init.d

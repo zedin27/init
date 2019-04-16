@@ -1,0 +1,8 @@
+apt-get update
+apt-get upgrade
+apt-get install
+apt-get install ssh
+apt-get install cron
+apt install procps
+apt install openssh-server
+su - && apt-get install sudo -y &&

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+diskutil list
+
+# Also, this task can be done in the Linux OS by doing `fdisk -l`

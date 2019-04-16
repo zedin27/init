@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# to start the ssh service: service ssh start
+service ssh status

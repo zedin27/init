@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# `kill` terminates the job that is run in the background. The '%' with a number next to it is the job number (1, 2, 3... n)
+
+kill %1

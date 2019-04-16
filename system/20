@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat /etc/passwd
+
+#Alternative awk -F: '{ print $1 }' /etc/passwd

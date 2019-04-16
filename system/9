@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#(w -- display who is logged in and what they are doing)
+
+w -h

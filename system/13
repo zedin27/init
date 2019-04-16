@@ -1,0 +1,5 @@
+#!/bin/sh
+
+top
+
+# Alternative is to run `htop`

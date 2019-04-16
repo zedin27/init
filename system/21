@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ls /home
+
+#Alternative 1: cut -d: -f1,3 /etc/passwd | egrep ':[0-9]{4}$' | cut -d: -f1
+#Alternative 2: awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd

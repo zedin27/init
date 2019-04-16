@@ -1,0 +1,3 @@
+Connect user to graphics session of your preference: ssh -Y <login>@<ip>
+
+Connect user to ssh: ssh <login>@<ip> and then password

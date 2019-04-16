@@ -1,0 +1,5 @@
+#!/bin/sh
+
+du -sH /var/*
+
+#Alternative answer `du -d 0 -H /var/*`

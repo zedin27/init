@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ssh root@<your IP here> #e.g 10.113.5.3
